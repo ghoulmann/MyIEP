@@ -1,6 +1,6 @@
 # MyIEP Installation
 
-## Ubuntu 12.04
+## Ubuntu 12.04/MySQL 5.5.54/PHP 5.3.10
 
 `sudo apt-get update`
 
