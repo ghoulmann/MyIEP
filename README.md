@@ -1,3 +1,40 @@
+# MyIEP Installation
+
+## Ubuntu 12.04
+
+`sudo apt-get update`
+
+`sudo apt-get upgrade`
+
+`sudo apt-get install lamp-server^ php5-gd php5-mysql`
+
+`sudo git clone https://github.com/ghoulmann/MyIEP.git /var/www/myiep/`
+
+## MySQL
+
+`CREATE DATABASE myiep;`
+
+`CREATE USER 'myiep'@'localhost' IDENTIFIED BY '<some secure passcode>;`
+
+`GRANT ALL ON myiep.* TO 'myiep'@'localhost';`
+
+## Install and Config
+
+1. navigate to localhost/myiep
+  
+2. see that dependencies are filled, click next
+  
+3. set the db into as entered above
+  
+
+## Log In as Admin
+
+Default Credentials
+
+- username: admin
+  
+- password: admin
+
 # Under Development
 
 This is a fork of IEP-IPP, an open source project last updated in 2007.
